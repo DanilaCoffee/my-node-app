@@ -6,8 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  # Приводим к lowercase
-  IMAGE_NAME: ${{ lower(github.repository) }}
+  IMAGE_NAME: danilacoffee/my-node-app
 
 jobs:
   test-and-build:

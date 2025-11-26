@@ -6,7 +6,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.actor }}/mynodeapp
+  # Используем имя пользователя вместо организации
+  IMAGE_NAME: ghcr.io/danilacoffee/mynodeapp
 
 jobs:
   test-and-build:
